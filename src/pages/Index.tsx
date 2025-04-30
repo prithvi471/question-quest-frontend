@@ -1,5 +1,5 @@
 
-import { Quiz } from '@/components/Quiz';
+import Quiz from '@/components/Quiz';
 
 const Index = () => {
   return (
