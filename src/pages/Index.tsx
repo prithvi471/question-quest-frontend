@@ -1,11 +1,11 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Quiz } from '@/components/Quiz';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="quiz-container min-h-screen flex flex-col items-center justify-center p-4 sm:p-6">
+      <div className="w-full max-w-md">
+        <Quiz />
       </div>
     </div>
   );
